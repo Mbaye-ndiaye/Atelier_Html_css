@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    /* justify-content: space-around;
+    width: 100%; */
+}
+.flex{
+   width: 100%;
+   
+    
+}
+.bleu{
+    background-color: blue;
+    height: 40VH;
+    /* width: 60%; */
+    font-size: 20px;
+    color: #fff;
+    width: 150%;
+    margin-top: 10px;
+    padding-left: 40%;
+} 
+.rouge{
+    background-color: blue;
+    height: 40VH;
+    font-size: 20px;
+    width: 150%;
+    /* align-items: center; */
+    color: #ffffff;
+    margin-top: 10px;
+    padding-left: 40%;
+    /* padding-right: 400px; */
+}
+
+.vert{
+    padding: 30px;
+    background-color: blueviolet;
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 30px;
+    margin-left: 400px;
+}
+.vert p{
+
+    display: flex;
+    border-radius: 10px;
+    /* background-color: red; */
+    padding: 10px 50px 10px 10px;
+    flex-direction: row-reverse;
+    flex:row ;
+}
+h2{
+    display: flex;
+    
+}
+.left{
+    text-align: flex-start;
+}
+.row{
+    display: flex;
+    padding: 30px;
+    background-color: blue;
+    padding: 10px 20px 10px ;
+}
+.row2{
+    display: flex;
+    padding: 30px;
+    background-color:red;
+}
+.row3{
+    display: flex;
+    padding: 30px;
+    background-color: blue;
+}
+.row4{
+    display: flex;
+    padding: 30px;
+    background-color: green;
+}
+
+.row p{
+    
+    float: right;
+}
+@media screen and (max-width: 976px){
+    body{
+        flex-direction: column;
+    }
+}

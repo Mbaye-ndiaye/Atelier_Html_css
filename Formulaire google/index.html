@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ma Formulaire</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <h1>Lique-nique Multi-association</h1>
+        <p>Inscription</p>
+    </header>
+    <nav class="pa1">
+        <forme method="post" action="traitement.php">
+        <div class="pa2">
+            <label for="prenom"><span  class="id">Prenom:</span></label>
+            <input type="prenom" id="prenom" name="prenom"></div><br><br>
+            <label for="pass"><span>Mot de passe:</span></label>
+            <input type="passeword" id="pass" name="pass"><br><br>
+            <label for="association"><span>Association:</span></label>
+            <input type="association" id="association" name="association" value="AssociatinX"><br><br>
+        </div>
+           <span> Disponibilites pour la semaine du 22 juin :</span>
+                <input type="checkbox" id="lundi" name="lundi">
+                <label for="lundi">Lundi</label>
+                <input type="checkbox" id="mardi" name="mardi">
+                <label for="mardi">Mardi</label> 
+                <input type="checkbox" id="mercredi" name="mercredi">
+                <label for="mercredi">Mercredi</label> 
+                <input type="checkbox" id="jeudi" name="jeudi">
+                <label for="jeudi">Jeudi</label> 
+                <input type="checkbox" id="vendredi" name="vendredi">
+                <label for="vendredi">Vendredi</label><br><br>
+           <span> Contribution :</span>
+                <input type="checkbox" id="entree" name="entree">
+                <label for="entree">Entrée</label>
+                <input type="checkbox" id="plat" name="plat">
+                <label for="plat">Plat</label>
+                <input type="checkbox" id="dessert" name="dessert">
+                <label for="dessert">Dessert</label><br><br>
+                <label for="commentaire"><span>Commenatire:</span></label>
+            <textarea type="commentaire"></textarea><br><br>
+            <input type="submit" value="S'inscrire!">
+            <input type="submit" value="Annuler">
+        </nav>   
+                
+            
+
+        </forme>
+    </body>
+</html>

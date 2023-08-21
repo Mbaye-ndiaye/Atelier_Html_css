@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navba1{
+    background-color: blue;
+    height: 600px;
+    padding-top: 10px;
+}
+ h1, p{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;   
+}
+h1{
+    font-family: sans-serif;
+    font-style: 100px;
+    padding-top: 25px;
+    font-size: 45px;
+}
+.para1{
+    color: gray;
+    padding-bottom: 10px;
+}
+.navba2,.section{
+    border-top: 40px solid black;
+    border-bottom: 5px solid blue;
+}
+.navba2{
+    background-color: red;
+    height: 600px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'popins' , sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;
+    text-decoration: ;
+}
+    
+
+
+.navba3,.section{
+    border-top: 10px solid yellow;
+    border-bottom: 35px solid green;
+}   
+.navba3{
+    background-color: green;
+    top: 50px;
+    height: 600px;
+}
+.navba4{
+    background-color: mediumslateblue;
+    height: 600px;
+    padding-top: 10px;
+}
+.navba5{
+    background-color: yellow;
+    height: 600px;
+    padding-top: 10px;
+    
+}
+.pp, a:hover{
+    color: black;
+    text-decoration:none;
+    border-bottom: 0x solid blue;
+    
+}
+
+nav{
+    border-top: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    background-color: #FFF;
+}
+ul{
+    width: 100%;
+    padding: 100px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: row;
+    float: left;
+    padding: 10px 10px 10px;
+    padding-left: 100px;
+    margin-left: 50px;
+}
